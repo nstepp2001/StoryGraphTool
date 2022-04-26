@@ -1,58 +1,50 @@
 {
-    "Title": "Campus Life on the West Side",
-    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
-    "InitialLocation": "Kresge",
+    "Title": "Going home on a weekend",
+    "Credits": "Created by Nic Stepp (nstepp@ucsc.edu).",
+    "InitialLocation": "Best Buy parking lot",
     "Locations": {
-        "Kresge": {
-            "Body": "This is Kresge College, lots of nice trees.",
+        "Best Buy parking lot": {
+            "Body": "Get into the car to find the traffic light is backed up.",
             "Choices": [
                 {
-                    "Text": "South",
-                    "Target": "Porter"
+                    "Text": "Next Light",
+                    "Target": "Exit"
                 }
             ]
         },
-        "Porter": {
-            "Body": "This is Porter College, the trees are nice here too.",
+        "Exit": {
+            "Body": "You're stuck behind a slow prius and have to wait for another red light!",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Kresge"
+                    "Text": "Forget something?",
+                    "Target": "Best Buy parking lot"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Rachel Carson"
+                    "Text": "Onto the freeway",
+                    "Target": "Freeway 1"
                 }
             ]
         },
-        "Rachel Carson": {
-            "Body": "Rachel Carson College, more sun and fewer trees.",
+        "Freeway 1": {
+            "Body": "Why are all these people going so slow?!",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Porter"
-                },
-                {
-                    "Text": "South",
-                    "Target": "Oakes"
+                    "Text": "Just take me home already!",
+                    "Target": "Freeway Exit"
                 }
             ]
         },
-        "Oakes": {
-            "Body": "Oakes College, even the buildings have tree bark on them.",
+        "Freeway Exit": {
+            "Body": "No way we are backed up to the bridge.",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Rachel Carson"
-                },
-                {
-                    "Text": "South",
-                    "Target": "Beyond"
+                    "Text": "I just want to go home!",
+                    "Target": "Parking"
                 }
             ]
         },
-        "Beyond": {
-            "Body": "Grass, don't forget to check for ticks!"
+        "Parking": {
+            "Body": "Of course there's no parking, it's Saturday at the boardwalk!"
         }
     }
 }
